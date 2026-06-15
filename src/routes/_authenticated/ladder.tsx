@@ -1,5 +1,5 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
@@ -236,7 +236,7 @@ function StepDialog({
   const [notes, setNotes] = useState("");
 
   // reset state when opening
-  useMemo(() => {
+  useEffect(() => {
     setCompleted(!!existing?.completed);
     setNotes(existing?.notes ?? "");
   }, [existing, idx]);
