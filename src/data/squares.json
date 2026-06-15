@@ -1,0 +1,647 @@
+[
+  {
+    "type": "header",
+    "title": "Level 1: Foundation Building (Months 1-3)",
+    "desc": "Building Your Caregiving Foundation"
+  },
+  {
+    "type": "bronze",
+    "number": 1,
+    "title": "Welcome Survey",
+    "desc": "Complete post-hiring survey within 7 days",
+    "criteria": [
+      "Complete post-hiring onboarding survey within 7 days of start date",
+      "Schedule and attend career development meeting with Care Coordinator within 14 days",
+      "Complete career development plan template during first month",
+      "Clock in and out perfectly for 10 consecutive shifts without errors",
+      "Complete \"Basic Caregiver Safety\" training course"
+    ]
+  },
+  {
+    "type": "bronze",
+    "number": 2,
+    "title": "Career Planning",
+    "desc": "Meet with Care Coordinator & create development plan",
+    "criteria": [
+      "Schedule and attend career development meeting with Care Coordinator within 14 days",
+      "Complete career development plan template during first month",
+      "Clock in and out perfectly for 10 consecutive shifts without errors",
+      "Complete \"Basic Caregiver Safety\" training course",
+      "Set foundation for your caregiving journey"
+    ]
+  },
+  {
+    "type": "bronze",
+    "number": 3,
+    "title": "Perfect Timing",
+    "desc": "Clock in/out perfectly for 10 shifts",
+    "criteria": [
+      "Clock in and out perfectly for 10 consecutive shifts without errors",
+      "Complete \"Basic Caregiver Safety\" training course",
+      "Demonstrate reliability and attention to detail",
+      "Build trust with scheduling team",
+      "Show commitment to professionalism"
+    ]
+  },
+  {
+    "type": "bronze",
+    "number": 4,
+    "title": "Safety First",
+    "desc": "Complete Basic Caregiver Safety training",
+    "criteria": [
+      "Complete \"Basic Caregiver Safety\" training course",
+      "Learn OSHA compliance requirements",
+      "Understand emergency procedures",
+      "Practice safe caregiving techniques",
+      "Pass safety assessment with 90% or higher"
+    ]
+  },
+  {
+    "type": "bronze",
+    "number": 5,
+    "title": "Foundation Complete",
+    "desc": "Bronze level achieved!",
+    "criteria": [
+      "Complete all Bronze Level requirements",
+      "Demonstrate readiness for Silver level",
+      "Show commitment to excellence",
+      "Build confidence in basic skills",
+      "Ready for increased responsibilities"
+    ]
+  },
+  {
+    "type": "silver",
+    "number": 6,
+    "title": "Flexible Helper",
+    "desc": "Accept 3 short shifts (<4 hours)",
+    "criteria": [
+      "Accept 3 shifts that are less than 4 hours in duration",
+      "Accept 2 shifts that are more than 15 miles from your home address",
+      "Complete \"Dementia Care Fundamentals\" training course",
+      "Set and document goals for your 30-day review meeting",
+      "Complete 3-week Caregiver satisfaction survey"
+    ]
+  },
+  {
+    "type": "silver",
+    "number": 7,
+    "title": "Distance Warrior",
+    "desc": "Accept 2 shifts >15 miles away",
+    "criteria": [
+      "Accept 2 shifts that are more than 15 miles from your home address",
+      "Complete \"Dementia Care Fundamentals\" training course",
+      "Set and document goals for your 30-day review meeting",
+      "Complete 3-week Caregiver satisfaction survey",
+      "Show willingness to serve broader community"
+    ]
+  },
+  {
+    "type": "silver",
+    "number": 8,
+    "title": "Dementia Expert",
+    "desc": "Complete Dementia Care training",
+    "criteria": [
+      "Complete \"Dementia Care Fundamentals\" training course",
+      "Learn specialized care techniques",
+      "Understand behavioral management",
+      "Practice patience and compassion",
+      "Qualify for dementia client assignments"
+    ]
+  },
+  {
+    "type": "silver",
+    "number": 9,
+    "title": "Goal Setter",
+    "desc": "Set 30-day review goals",
+    "criteria": [
+      "Set and document goals for your 30-day review meeting",
+      "Complete 3-week Caregiver satisfaction survey",
+      "Reflect on initial experiences",
+      "Plan for continued growth",
+      "Demonstrate self-awareness"
+    ]
+  },
+  {
+    "type": "silver",
+    "number": 10,
+    "title": "Silver Star",
+    "desc": "Silver level complete!",
+    "criteria": [
+      "Complete 3-week Caregiver satisfaction survey",
+      "All Silver requirements met",
+      "Ready for Gold level challenges",
+      "Building expertise and confidence",
+      "Expanding service capabilities"
+    ]
+  },
+  {
+    "type": "gold",
+    "number": 11,
+    "title": "Triple Threat",
+    "desc": "Accept 3 shifts in one day",
+    "criteria": [
+      "Accept one full day with three shifts scheduled",
+      "Accept 5 same-day shift assignments",
+      "Give Agape a positive review on Facebook",
+      "Complete \"Medication Management Basics\" training course",
+      "Set and document goals for your 60-day review meeting"
+    ]
+  },
+  {
+    "type": "gold",
+    "number": 12,
+    "title": "Same-Day Hero",
+    "desc": "Accept 5 same-day shifts",
+    "criteria": [
+      "Accept 5 same-day shift assignments",
+      "Give Agape a positive review on Facebook",
+      "Complete \"Medication Management Basics\" training course",
+      "Set and document goals for your 60-day review meeting",
+      "Show ultimate flexibility"
+    ]
+  },
+  {
+    "type": "gold",
+    "number": 13,
+    "title": "Social Champion",
+    "desc": "Give Facebook review",
+    "criteria": [
+      "Give Agape a positive review on Facebook",
+      "Complete \"Medication Management Basics\" training course",
+      "Set and document goals for your 60-day review meeting",
+      "Help build company reputation",
+      "Share positive experience"
+    ]
+  },
+  {
+    "type": "gold",
+    "number": 14,
+    "title": "Med Safety Pro",
+    "desc": "Complete Medication Management training",
+    "criteria": [
+      "Complete \"Medication Management Basics\" training course",
+      "Learn safe handling protocols",
+      "Understand administration guidelines",
+      "Practice documentation requirements",
+      "Qualify for medication assistance tasks"
+    ]
+  },
+  {
+    "type": "gold",
+    "number": 15,
+    "title": "Gold Standard",
+    "desc": "Set 60-day goals",
+    "criteria": [
+      "Set and document goals for your 60-day review meeting",
+      "Complete all Gold Level requirements",
+      "Ready for first major milestone",
+      "Demonstrated exceptional commitment",
+      "Earned first raise!"
+    ]
+  },
+  {
+    "type": "milestone",
+    "number": "🏆",
+    "title": "FIRST RAISE!",
+    "desc": "$1.00/hour increase + Foundation Badge",
+    "criteria": [
+      "Congratulations! You have completed Level 1",
+      "Earned $1.00/hour raise effective immediately",
+      "Received Foundation Achievement Badge",
+      "Demonstrated commitment to excellence",
+      "Ready for Level 2 challenges",
+      "Built strong foundation in caregiving skills"
+    ]
+  },
+  {
+    "type": "header",
+    "title": "Level 2: Skill Development (Months 4-6)",
+    "desc": "Advancing Your Professional Skills"
+  },
+  {
+    "type": "bronze",
+    "number": 16,
+    "title": "Feedback Loop",
+    "desc": "Complete 6-week survey",
+    "criteria": [
+      "Complete 6-week Caregiver satisfaction survey",
+      "Give Agape a positive review on Google",
+      "Complete \"Personal Care Assistance\" training course",
+      "Correctly identify your Care Coordinator and write what city they live in",
+      "Document 3 instances of going above and beyond the written care plan"
+    ]
+  },
+  {
+    "type": "bronze",
+    "number": 17,
+    "title": "Google Guru",
+    "desc": "Give Google review",
+    "criteria": [
+      "Give Agape a positive review on Google",
+      "Complete \"Personal Care Assistance\" training course",
+      "Correctly identify your Care Coordinator and write what city they live in",
+      "Document 3 instances of going above and beyond the written care plan",
+      "Boost online presence"
+    ]
+  },
+  {
+    "type": "bronze",
+    "number": 18,
+    "title": "Personal Care Pro",
+    "desc": "Complete Personal Care training",
+    "criteria": [
+      "Complete \"Personal Care Assistance\" training course",
+      "Learn dignity-focused care techniques",
+      "Practice proper hygiene assistance",
+      "Understand mobility support",
+      "Maintain client privacy and respect"
+    ]
+  },
+  {
+    "type": "bronze",
+    "number": 19,
+    "title": "Know Your Team",
+    "desc": "Identify Care Coordinator",
+    "criteria": [
+      "Correctly identify your Care Coordinator and write what city they live in",
+      "Document 3 instances of going above and beyond the written care plan",
+      "Build stronger team relationships",
+      "Show attention to detail",
+      "Demonstrate extra care efforts"
+    ]
+  },
+  {
+    "type": "bronze",
+    "number": 20,
+    "title": "Above & Beyond",
+    "desc": "Document 3 extra care acts",
+    "criteria": [
+      "Document 3 instances of going above and beyond the written care plan",
+      "Show initiative and compassion",
+      "Exceed client expectations",
+      "Demonstrate care excellence",
+      "Ready for Silver level"
+    ]
+  },
+  {
+    "type": "silver",
+    "number": 21,
+    "title": "Short Shift Specialist",
+    "desc": "Accept 4 short shifts",
+    "criteria": [
+      "Accept 4 shifts that are less than 4 hours in duration",
+      "Accept 3 shifts that are more than 15 miles from your home",
+      "Complete \"Fall Prevention and Home Safety\" training course",
+      "Give Agape a positive review on Glassdoor",
+      "Set and document goals for your 90-day review meeting"
+    ]
+  },
+  {
+    "type": "silver",
+    "number": 22,
+    "title": "Road Warrior",
+    "desc": "Accept 3 distant shifts",
+    "criteria": [
+      "Accept 3 shifts that are more than 15 miles from your home",
+      "Complete \"Fall Prevention and Home Safety\" training course",
+      "Give Agape a positive review on Glassdoor",
+      "Set and document goals for your 90-day review meeting",
+      "Expand service area"
+    ]
+  },
+  {
+    "type": "silver",
+    "number": 23,
+    "title": "Safety Expert",
+    "desc": "Complete Fall Prevention training",
+    "criteria": [
+      "Complete \"Fall Prevention and Home Safety\" training course",
+      "Learn risk assessment techniques",
+      "Practice environmental modifications",
+      "Understand safety protocols",
+      "Reduce client injury risk"
+    ]
+  },
+  {
+    "type": "silver",
+    "number": 24,
+    "title": "Glassdoor Ambassador",
+    "desc": "Give Glassdoor review",
+    "criteria": [
+      "Give Agape a positive review on Glassdoor",
+      "Set and document goals for your 90-day review meeting",
+      "Help attract quality caregivers",
+      "Share workplace experience",
+      "Support recruitment efforts"
+    ]
+  },
+  {
+    "type": "silver",
+    "number": 25,
+    "title": "Quarter Goals",
+    "desc": "Set 90-day goals",
+    "criteria": [
+      "Set and document goals for your 90-day review meeting",
+      "Plan for continued development",
+      "Show forward-thinking approach",
+      "Demonstrate growth mindset",
+      "Silver level complete!"
+    ]
+  },
+  {
+    "type": "gold",
+    "number": 26,
+    "title": "Survey Champion",
+    "desc": "Complete 9-week survey",
+    "criteria": [
+      "Complete 9-week Caregiver satisfaction survey",
+      "Obtain your first positive review from a client",
+      "Accept 8 same-day shift assignments",
+      "Complete \"Communication with Families\" training course",
+      "Meet with a company founder to discuss the Agape Vision"
+    ]
+  },
+  {
+    "type": "gold",
+    "number": 27,
+    "title": "Client Favorite",
+    "desc": "Get first client review",
+    "criteria": [
+      "Obtain your first positive review from a client",
+      "Accept 8 same-day shift assignments",
+      "Complete \"Communication with Families\" training course",
+      "Meet with a company founder to discuss the Agape Vision",
+      "Build strong client relationships"
+    ]
+  },
+  {
+    "type": "gold",
+    "number": 28,
+    "title": "Flex Master",
+    "desc": "Accept 8 same-day shifts",
+    "criteria": [
+      "Accept 8 same-day shift assignments",
+      "Complete \"Communication with Families\" training course",
+      "Meet with a company founder to discuss the Agape Vision",
+      "Show ultimate reliability",
+      "Demonstrate adaptability"
+    ]
+  },
+  {
+    "type": "gold",
+    "number": 29,
+    "title": "Family Communicator",
+    "desc": "Complete Communication training",
+    "criteria": [
+      "Complete \"Communication with Families\" training course",
+      "Meet with a company founder to discuss the Agape Vision",
+      "Learn professional boundaries",
+      "Practice effective updates",
+      "Build family trust"
+    ]
+  },
+  {
+    "type": "gold",
+    "number": 30,
+    "title": "Vision Alignment",
+    "desc": "Meet with founder",
+    "criteria": [
+      "Meet with a company founder to discuss the Agape Vision",
+      "Understand company mission",
+      "Align personal goals with company values",
+      "Build leadership connection",
+      "Gold level mastery achieved!"
+    ]
+  },
+  {
+    "type": "milestone",
+    "number": "⭐",
+    "title": "40 HOURS GUARANTEED!",
+    "desc": "Guaranteed full-time hours + Development Badge",
+    "criteria": [
+      "Congratulations! You have completed Level 2",
+      "Now eligible for guaranteed 40 hours per week",
+      "Received Development Achievement Badge",
+      "Demonstrated advanced caregiving skills",
+      "Shown commitment to professional growth",
+      "Ready for leadership development"
+    ]
+  },
+  {
+    "type": "header",
+    "title": "Level 3: Excellence & Leadership (Months 7-12)",
+    "desc": "Becoming a Caregiving Leader"
+  },
+  {
+    "type": "bronze",
+    "number": 31,
+    "title": "Yelp Advocate",
+    "desc": "Give Yelp review",
+    "criteria": [
+      "Give Agape a positive review on Yelp",
+      "Clock in and out perfectly for 20 consecutive shifts",
+      "Obtain a positive review from a second client",
+      "Complete \"Advanced Dementia Care\" training course",
+      "Document 5 additional instances of exceptional care beyond care plan requirements"
+    ]
+  },
+  {
+    "type": "bronze",
+    "number": 32,
+    "title": "Precision Pro",
+    "desc": "20 perfect clock ins/outs",
+    "criteria": [
+      "Clock in and out perfectly for 20 consecutive shifts",
+      "Obtain a positive review from a second client",
+      "Complete \"Advanced Dementia Care\" training course",
+      "Document 5 additional instances of exceptional care beyond care plan requirements",
+      "Show consistent reliability"
+    ]
+  },
+  {
+    "type": "bronze",
+    "number": 33,
+    "title": "Client Champion",
+    "desc": "Get second client review",
+    "criteria": [
+      "Obtain a positive review from a second client",
+      "Complete \"Advanced Dementia Care\" training course",
+      "Document 5 additional instances of exceptional care beyond care plan requirements",
+      "Build multiple strong relationships",
+      "Demonstrate consistent quality"
+    ]
+  },
+  {
+    "type": "bronze",
+    "number": 34,
+    "title": "Advanced Dementia Specialist",
+    "desc": "Complete Advanced Dementia training",
+    "criteria": [
+      "Complete \"Advanced Dementia Care\" training course",
+      "Document 5 additional instances of exceptional care beyond care plan requirements",
+      "Learn specialized behavioral techniques",
+      "Practice advanced communication methods",
+      "Become expert in dementia care"
+    ]
+  },
+  {
+    "type": "bronze",
+    "number": 35,
+    "title": "Exceptional Care",
+    "desc": "Document 5 extra care acts",
+    "criteria": [
+      "Document 5 additional instances of exceptional care beyond care plan requirements",
+      "Consistently exceed expectations",
+      "Show creative problem-solving",
+      "Demonstrate compassionate innovation",
+      "Bronze excellence achieved!"
+    ]
+  },
+  {
+    "type": "silver",
+    "number": 36,
+    "title": "Triple Day Master",
+    "desc": "Accept 2 more triple days",
+    "criteria": [
+      "Accept 2 additional full days with three shifts each",
+      "Accept 5 shifts that are more than 15 miles from your home",
+      "Refer your first caregiver candidate to Agape",
+      "Complete \"End-of-Life Care Compassion\" training course",
+      "Complete your first 6-month Caregiver satisfaction survey"
+    ]
+  },
+  {
+    "type": "silver",
+    "number": 37,
+    "title": "Distance Champion",
+    "desc": "Accept 5 distant shifts",
+    "criteria": [
+      "Accept 5 shifts that are more than 15 miles from your home",
+      "Refer your first caregiver candidate to Agape",
+      "Complete \"End-of-Life Care Compassion\" training course",
+      "Complete your first 6-month Caregiver satisfaction survey",
+      "Show ultimate dedication"
+    ]
+  },
+  {
+    "type": "silver",
+    "number": 38,
+    "title": "Team Builder",
+    "desc": "Refer first caregiver",
+    "criteria": [
+      "Refer your first caregiver candidate to Agape",
+      "Complete \"End-of-Life Care Compassion\" training course",
+      "Complete your first 6-month Caregiver satisfaction survey",
+      "Help grow the team",
+      "Show leadership potential"
+    ]
+  },
+  {
+    "type": "silver",
+    "number": 39,
+    "title": "Compassion Expert",
+    "desc": "Complete End-of-Life training",
+    "criteria": [
+      "Complete \"End-of-Life Care Compassion\" training course",
+      "Complete your first 6-month Caregiver satisfaction survey",
+      "Learn specialized comfort techniques",
+      "Practice family support skills",
+      "Handle sensitive situations"
+    ]
+  },
+  {
+    "type": "silver",
+    "number": 40,
+    "title": "Six Month Reflection",
+    "desc": "Complete 6-month survey",
+    "criteria": [
+      "Complete your first 6-month Caregiver satisfaction survey",
+      "Reflect on growth and development",
+      "Identify areas for improvement",
+      "Set advanced goals",
+      "Silver excellence achieved!"
+    ]
+  },
+  {
+    "type": "gold",
+    "number": 41,
+    "title": "Triple Client Favorite",
+    "desc": "Get third client review",
+    "criteria": [
+      "Obtain a positive review from a third client",
+      "Accept 12 same-day shift assignments",
+      "Refer a second caregiver candidate to Agape",
+      "Complete \"Leadership in Caregiving\" training course",
+      "Clock in and out perfectly for 30 consecutive shifts"
+    ]
+  },
+  {
+    "type": "gold",
+    "number": 42,
+    "title": "Ultimate Flexibility",
+    "desc": "Accept 12 same-day shifts",
+    "criteria": [
+      "Accept 12 same-day shift assignments",
+      "Refer a second caregiver candidate to Agape",
+      "Complete \"Leadership in Caregiving\" training course",
+      "Clock in and out perfectly for 30 consecutive shifts",
+      "Master of adaptability"
+    ]
+  },
+  {
+    "type": "gold",
+    "number": 43,
+    "title": "Recruiting Star",
+    "desc": "Refer second caregiver",
+    "criteria": [
+      "Refer a second caregiver candidate to Agape",
+      "Complete \"Leadership in Caregiving\" training course",
+      "Clock in and out perfectly for 30 consecutive shifts",
+      "Show strong networking skills",
+      "Help team expansion"
+    ]
+  },
+  {
+    "type": "gold",
+    "number": 44,
+    "title": "Leadership Ready",
+    "desc": "Complete Leadership training",
+    "criteria": [
+      "Complete \"Leadership in Caregiving\" training course",
+      "Clock in and out perfectly for 30 consecutive shifts",
+      "Learn mentoring techniques",
+      "Practice team collaboration",
+      "Prepare for leadership role"
+    ]
+  },
+  {
+    "type": "gold",
+    "number": 45,
+    "title": "Consistency Master",
+    "desc": "30 perfect clock ins/outs",
+    "criteria": [
+      "Clock in and out perfectly for 30 consecutive shifts",
+      "Demonstrate ultimate reliability",
+      "Show exceptional time management",
+      "Ready for promotion",
+      "Gold mastery complete!"
+    ]
+  },
+  {
+    "type": "milestone",
+    "number": "👑",
+    "title": "MOBILE CAREGIVER!",
+    "desc": "Promotion + $2.00 raise + Excellence Badge",
+    "criteria": [
+      "🎉 CONGRATULATIONS! 🎉",
+      "Promoted to Mobile Caregiver position",
+      "Earned additional $2.00/hour raise",
+      "Received Excellence Achievement Badge",
+      "Total raise: $3.00/hour from start",
+      "New responsibilities: Train new caregivers",
+      "Handle complex care situations",
+      "Lead by example in the field",
+      "Mentor and support team members"
+    ]
+  }
+]
