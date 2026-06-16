@@ -69,6 +69,22 @@ function LadderPage() {
   );
   const totalSteps = stepEntries.length;
   const completedSteps = stepEntries.filter(({ sq, i }) => progressMap.get(stepDbNumber(sq, i))?.completed).length;
+
+  // Index of the next step that still needs completing (the only unlocked one beyond completed ones).
+  const nextUnlockedOrder = stepEntries.findIndex(
+    ({ sq, i }) => !progressMap.get(stepDbNumber(sq, i))?.completed,
+  );
+  // Map: squares array index -> locked?
+  const lockedByIdx = useMemo(() => {
+    const m = new Map<number, boolean>();
+    stepEntries.forEach((entry, order) => {
+      const done = !!progressMap.get(stepDbNumber(entry.sq, entry.i))?.completed;
+      // unlocked if already done OR it is the next-in-line step
+      const unlocked = done || order === nextUnlockedOrder;
+      m.set(entry.i, !unlocked);
+    });
+    return m;
+  }, [stepEntries, progressMap, nextUnlockedOrder]);
   const percent = totalSteps ? Math.round((completedSteps / totalSteps) * 100) : 0;
 
   const saveStep = useMutation({
