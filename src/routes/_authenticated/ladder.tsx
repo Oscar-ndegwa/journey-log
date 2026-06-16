@@ -69,6 +69,22 @@ function LadderPage() {
   );
   const totalSteps = stepEntries.length;
   const completedSteps = stepEntries.filter(({ sq, i }) => progressMap.get(stepDbNumber(sq, i))?.completed).length;
+
+  // Index of the next step that still needs completing (the only unlocked one beyond completed ones).
+  const nextUnlockedOrder = stepEntries.findIndex(
+    ({ sq, i }) => !progressMap.get(stepDbNumber(sq, i))?.completed,
+  );
+  // Map: squares array index -> locked?
+  const lockedByIdx = useMemo(() => {
+    const m = new Map<number, boolean>();
+    stepEntries.forEach((entry, order) => {
+      const done = !!progressMap.get(stepDbNumber(entry.sq, entry.i))?.completed;
+      // unlocked if already done OR it is the next-in-line step
+      const unlocked = done || order === nextUnlockedOrder;
+      m.set(entry.i, !unlocked);
+    });
+    return m;
+  }, [stepEntries, progressMap, nextUnlockedOrder]);
   const percent = totalSteps ? Math.round((completedSteps / totalSteps) * 100) : 0;
 
   const saveStep = useMutation({
@@ -142,12 +158,20 @@ function LadderPage() {
             const dbNum = stepDbNumber(sq, i);
             const row = progressMap.get(dbNum);
             const done = !!row?.completed;
+            const locked = lockedByIdx.get(i) ?? true;
             return (
               <SquareTile
                 key={`s-${i}`}
                 square={sq}
                 done={done}
-                onClick={() => setOpenIdx(i)}
+                locked={locked}
+                onClick={() => {
+                  if (locked) {
+                    toast.info("Finish the previous step to unlock this one.");
+                    return;
+                  }
+                  setOpenIdx(i);
+                }}
               />
             );
           })}
@@ -168,10 +192,12 @@ function LadderPage() {
 function SquareTile({
   square,
   done,
+  locked,
   onClick,
 }: {
   square: StepSquare;
   done: boolean;
+  locked: boolean;
   onClick: () => void;
 }) {
   const gradientVar =
@@ -189,7 +215,12 @@ function SquareTile({
     <button
       type="button"
       onClick={onClick}
-      className="group relative min-h-[140px] md:min-h-[160px] rounded-2xl p-3 md:p-4 text-left transition-transform duration-200 hover:-translate-y-1 hover:shadow-[var(--shadow-square-hover)] focus:outline-none focus:ring-2 focus:ring-ring"
+      aria-disabled={locked}
+      className={`group relative min-h-[140px] md:min-h-[160px] rounded-2xl p-3 md:p-4 text-left transition-transform duration-200 focus:outline-none focus:ring-2 focus:ring-ring ${
+        locked
+          ? "opacity-50 grayscale cursor-not-allowed"
+          : "hover:-translate-y-1 hover:shadow-[var(--shadow-square-hover)]"
+      }`}
       style={{
         background: gradientVar,
         color: fg,
@@ -202,9 +233,17 @@ function SquareTile({
         >
           {square.number}
         </div>
-        {done && (
+        {done ? (
           <span className="rounded-full bg-emerald-600 text-white text-[10px] font-bold px-2 py-0.5 shadow">
             ✓ DONE
+          </span>
+        ) : locked ? (
+          <span className="rounded-full bg-black/40 text-white text-[10px] font-bold px-2 py-0.5 shadow">
+            🔒 LOCKED
+          </span>
+        ) : (
+          <span className="rounded-full bg-white/80 text-black text-[10px] font-bold px-2 py-0.5 shadow">
+            ▶ START
           </span>
         )}
       </div>
