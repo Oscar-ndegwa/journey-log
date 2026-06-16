@@ -192,10 +192,12 @@ function LadderPage() {
 function SquareTile({
   square,
   done,
+  locked,
   onClick,
 }: {
   square: StepSquare;
   done: boolean;
+  locked: boolean;
   onClick: () => void;
 }) {
   const gradientVar =
@@ -213,7 +215,12 @@ function SquareTile({
     <button
       type="button"
       onClick={onClick}
-      className="group relative min-h-[140px] md:min-h-[160px] rounded-2xl p-3 md:p-4 text-left transition-transform duration-200 hover:-translate-y-1 hover:shadow-[var(--shadow-square-hover)] focus:outline-none focus:ring-2 focus:ring-ring"
+      aria-disabled={locked}
+      className={`group relative min-h-[140px] md:min-h-[160px] rounded-2xl p-3 md:p-4 text-left transition-transform duration-200 focus:outline-none focus:ring-2 focus:ring-ring ${
+        locked
+          ? "opacity-50 grayscale cursor-not-allowed"
+          : "hover:-translate-y-1 hover:shadow-[var(--shadow-square-hover)]"
+      }`}
       style={{
         background: gradientVar,
         color: fg,
@@ -226,9 +233,17 @@ function SquareTile({
         >
           {square.number}
         </div>
-        {done && (
+        {done ? (
           <span className="rounded-full bg-emerald-600 text-white text-[10px] font-bold px-2 py-0.5 shadow">
             ✓ DONE
+          </span>
+        ) : locked ? (
+          <span className="rounded-full bg-black/40 text-white text-[10px] font-bold px-2 py-0.5 shadow">
+            🔒 LOCKED
+          </span>
+        ) : (
+          <span className="rounded-full bg-white/80 text-black text-[10px] font-bold px-2 py-0.5 shadow">
+            ▶ START
           </span>
         )}
       </div>
