@@ -158,12 +158,20 @@ function LadderPage() {
             const dbNum = stepDbNumber(sq, i);
             const row = progressMap.get(dbNum);
             const done = !!row?.completed;
+            const locked = lockedByIdx.get(i) ?? true;
             return (
               <SquareTile
                 key={`s-${i}`}
                 square={sq}
                 done={done}
-                onClick={() => setOpenIdx(i)}
+                locked={locked}
+                onClick={() => {
+                  if (locked) {
+                    toast.info("Finish the previous step to unlock this one.");
+                    return;
+                  }
+                  setOpenIdx(i);
+                }}
               />
             );
           })}
